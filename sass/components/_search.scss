@@ -1,0 +1,21 @@
+.search {
+  &-title {
+    @include font--header;
+  }
+  &-container {
+    background-color: $color-secondary;
+    color: white;
+  }
+  &-icon {
+    left: 17.4rem;
+    top: 1.5rem;
+    display: flex;
+    color: $color-base;
+    align-self: baseline;
+  }
+  &-input {
+    @include font--writing;
+    max-width: 19rem;
+    min-width: 19rem;
+  }
+}

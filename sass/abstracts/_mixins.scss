@@ -1,0 +1,36 @@
+@mixin transition($transition) {
+  -moz-transition: all $transition ease-in-out;
+  -o-transition: all $transition ease-in-out;
+  -webkit-transition: all $transition ease-in-out;
+  -ms-transition: all $transition ease-in-out;
+  -o-transition: all $transition ease-in-out;
+  transition: all $transition ease-in-out;
+}
+@mixin font--header {
+  font-family: $head-font, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+@mixin font--header--sm {
+  font-family: $head-font, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@mixin font--writing {
+  font-family: $head-font, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+@mixin font--writing--sm {
+  font-family: $head-font, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+//  animation Mixin
+
+@mixin transition-EaseInOut {
+  transition: ease-in-out 0.2s;
+}

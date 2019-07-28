@@ -1,0 +1,12 @@
+.button {
+  &-audio {
+    position: relative;
+    bottom: 3.5rem;
+  }
+  &--right {
+    margin-left: auto;
+  }
+  &__small {
+    width: 4rem;
+  }
+}
